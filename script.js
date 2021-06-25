@@ -1,6 +1,13 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+
+// Declaring possible password charaters for generator 
+let alpha = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ];
+let aphaUppercase = alpha.join("$$").toUpperCase().split("$$");
+let specialCharacters = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "/", "?", "]", "[", "{", "}", "|", "~", "=", "+", ";", ":"];
+let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
