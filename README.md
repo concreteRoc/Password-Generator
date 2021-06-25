@@ -5,8 +5,8 @@ This mini project was to create a password generator given you may need a new se
 
 ## Screen Shot
 
-<img src="./assest/screenshot1.jpg">
-<img src="./assest/screenshot2.jpg">
+<img src="./assest/Screenshot1.jpg">
+<img src="./assest/Screenshot2.jpg">
 
 ## Webiste 
 Here's a link to the [website](https://concreteroc.github.io/Password-Generator/)
